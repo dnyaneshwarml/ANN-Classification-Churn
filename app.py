@@ -81,4 +81,5 @@ prediction_probab = prediction[0][0]
 if prediction_probab > 0.5:
     st.write('The custome is likely to churn.')
 else:
+
     st.write("The custome is not likely to churn.")
